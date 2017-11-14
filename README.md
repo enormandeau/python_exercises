@@ -13,7 +13,7 @@ after each problem.
 The goal of this project is to help you gain experience in what many
 introductions to programming in Python avoid: writing scripts that run on your
 own computer, as opposed to a web imbedded interpreter, and produce useful
-results. As a result, a lot of the exercices will require parsing user input
+results. As a result, a lot of the exercises will require parsing user input
 given on the command line as well as reading and writing files as these are
 fundamental notions for scripting.
 
