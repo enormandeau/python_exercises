@@ -46,19 +46,24 @@ LEARN:
 CONCLUSION:
     You now know how to write simple scripts that accept user inputs. This
     will be useful for most of the following exercises.
+
+WARNING:
+    This script will crash without a useful error message if the user does not
+    give at least three parameters. The next exercice will give us the tools
+    needed to improve this situation.
 """
 
 # Modules
-# We need the `sys` module to parse user inputs
+# We need the `sys` module to parse user input
 import sys
 
-# Take user input
-# user sys.argv[i] where `i` is the number of the argument
-# your code here
+# Parse user input
+# use `sys.argv[i]` where `i` is the number of the argument
+# TODO your code here
 name = sys.argv[1]  # user name, no need to transform since already a string
 age =               # in years, transform input into an integer (with `int`)
 height =            # in meters, transform input into a float (with `float`)
 
-# Print sentence about the user
-# For example: "Hello John. You are 32 years old and 1.75m tall."
-# your code here
+# Print informations about the user
+# For example: "Hello John! You are 32 years old and 1.75m meters tall."
+# TODO your code here
