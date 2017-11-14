@@ -24,8 +24,8 @@ TODO:
     1) Fill the code below to print "Hello World!"
     2) Launch the script in one of two ways:
 
-        a) Tell the `python` interpreter to execute the script:
-            `python <script.py>`
+        a) Tell the Python interpreter to execute the script:
+            `python3 <script.py>`
 
         b) For Mac and Linux:
 
@@ -44,10 +44,10 @@ LEARN:
     Instead of giving the specific path to the Python interpreter, like for
     example `#!/usr/bin/python3`, we let Bash use the Python interpreter that
     is presently used in the current Bash environment. This is what the part
-    `/usr/bin/env python` does. This is MUCH BETTER than giving a specific
+    `/usr/bin/env python3` does. This is MUCH BETTER than giving a specific
     interpreter path because you DO NOT KNOW which Python interpreter the user
     of your script is going to use. They may have anaconda or miniconda or
-    another python interpreter installed.
+    another Python interpreter installed.
 
 CONCLUSION:
     You now know how to write simple scripts and launch them in the terminal.
