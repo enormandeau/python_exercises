@@ -12,16 +12,19 @@ x Parsing user input
   - Run `./user_input.py name age`
   - Return "Hello {name}. You are {age} years old"
 
-- Documentation
+- Documentation and try/except
   - Parse user input with `sys.argv`
   - Run without (or wrong number of) arguments
   - Return docstring (`__doc__`)
+
+- Assertions
+  - Insure parameters have meaninfull values with `assert`
 
 - The PATH variable
   - Make your script visible from everywhere
   - Launch it without a path with `script.py`
 
-- Simple Math
+- Simple Math (wrap-up of learned skills) [Needed?]
   - shebang
   - docstring
   - user input = two numbers and a sign (`+ - * /`)
