@@ -12,10 +12,11 @@ after each problem.
 
 The goal of this project is to help you gain experience in what many
 introductions to programming in Python avoid: writing scripts that run on your
-own computer, as opposed to a web imbedded interpreter, and produce useful
-results. As a result, a lot of the exercises will require parsing user input
-given on the command line as well as reading and writing files as these are
-fundamental notions for scripting.
+own computer, as opposed to an embedded browser interpreter or iPython
+notebook, and produce useful results. As a result, a lot of the exercises will
+require parsing user input given on the command line as well as reading and
+writing files. These are fundamental notions for scripting that are too often
+not covered in introductory material.
 
 ## How to use this repository
 
@@ -26,7 +27,7 @@ For each problem:
 - Write a Python3 script that solves the problem
 - Check the solution(s) for more learning opportunities
 - Solutions should work with Python 3.6+
-- Solutions whould work under Windows, Mac, and Linux
+- Solutions should work under Windows, Mac, and Linux
 - You can re-use ideas from previous solutions
 - You are also encouraged to try new ideas
 
@@ -35,8 +36,9 @@ For each problem:
 The exercises will practice:
 
 - Using Python scripts that start with `#!/usr/bin/env python`
-- Writing useful docstrings and using them (`__doc__`)
+- Writing useful documentation strings (aka: docstrings) and using them (`__doc__`)
 - Parsing user input (with `sys.argv` and the `argparse` module)
+- Making sure input values are valid
 - Using the basic data types (numbers, strings, lists, tuples...)
 - Reading and writing files
 - Reading from and writing to compressed files with the `gzip` module
