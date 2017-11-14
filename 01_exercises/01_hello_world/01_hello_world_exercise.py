@@ -6,7 +6,7 @@ Usage:
     ./<script.py>
 """
 
-# Exercice
+# Exercise
 """
 GOAL:
     Learn how to launch scripts from the terminal (Windows, Mac, Linux).
@@ -18,16 +18,20 @@ NOTE:
     emulator.
 
 TODO:
-    - Fill the code below to print "Hello World!"
-    - Launch the script in one of two ways:
+    1) Fill the code below to print "Hello World!"
+    2) Launch the script in one of two ways:
 
-        1) Use the `python` command directly to tell it to execute the script:
+        a) Use the `python` interpreter directly to tell it to execute the
+        script:
             `python hello_world.py`
 
-        2) For Mac and Linux: make script executable
-            `chmod +x hello_world.py`
-        and tell Bash to run it
-            `./hello_world.py`
+        b) For Mac and Linux:
+
+            i) make script executable
+                `chmod +x hello_world.py`
+
+            ii) tell Bash to run it
+                `./hello_world.py`
 
 LEARN:
     In order to run a script, you either tell the Python program to run it or,
