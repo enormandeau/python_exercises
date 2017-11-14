@@ -1,6 +1,12 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 """Run a script that prints "Hello World!" when run from the command line
 
+Usage:
+    ./<script.py>
+"""
+
+# Exercice
+"""
 GOAL:
     Learn how to launch scripts from the terminal (Windows, Mac, Linux).
 
