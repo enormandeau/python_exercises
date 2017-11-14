@@ -2,12 +2,12 @@
 
 ## Basic
 
-- Hello world script
+x Hello world script
   - Use shebang line: `!# /usr/bin/env python`
   - Make script executable
   - Launch with `python hello_world.py` or `./hello_world.py`
 
-- Parsing user input
+x Parsing user input
   - Use `sys.argv`
   - Run `./user_input.py name age`
   - Return "Hello {name}. You are {age} years old"
@@ -17,11 +17,16 @@
   - Run without (or wrong number of) arguments
   - Return docstring (`__doc__`)
 
+- The PATH variable
+  - Make your script visible from everywhere
+  - Launch it without a path with `script.py`
+
 - Simple Math
   - shebang
   - docstring
   - user input = two numbers and a sign (`+ - * /`)
   - print result as an equation, example: "3 + 5 = 8"
+  - Create a folder for your scripts and add it to your PATH
 
 ## Playing with files
 
