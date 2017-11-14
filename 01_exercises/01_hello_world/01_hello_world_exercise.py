@@ -18,21 +18,22 @@ NOTE:
     ways to use Bash in Windows. One of them is to install cygwin, a Linux
     emulator.
 
+    Whenever you see <script.py>, use the actual name of the script instead.
+
 TODO:
     1) Fill the code below to print "Hello World!"
     2) Launch the script in one of two ways:
 
-        a) Use the `python` interpreter directly to tell it to execute the
-        script:
-            `python hello_world.py`
+        a) Tell the `python` interpreter to execute the script:
+            `python <script.py>`
 
         b) For Mac and Linux:
 
             i) make script executable
-                `chmod +x hello_world.py`
+                `chmod +x <script.py>`
 
             ii) tell Bash to run it
-                `./hello_world.py`
+                `./<script.py>`
 
 LEARN:
     In order to run a script, you either tell the Python program to run it or,
