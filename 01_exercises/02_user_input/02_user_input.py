@@ -35,7 +35,9 @@ TODO:
       `./<script.py> John 32 1.75`
 
     3) Launch without values
+
     4) Launch with a wrong number of values (too few and too many)
+
     5) Launch with values of the wrong type (eg: string instead of number)
 
 LEARN:
