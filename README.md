@@ -2,34 +2,32 @@
 
 A set of Python3 exercises to develop solid scripting foundations
 
-## Description
-
-These Python3 exercises will be numbered and go from easy to more advanced.
-Problems will be added through time and solutions should be added a week or two
-after each problem.
-
-## Goal
+## Objective
 
 The goal of this project is to help you gain experience in what many
-introductions to programming in Python avoid: writing scripts that run on your
-own computer, as opposed to an embedded browser interpreter or iPython
-notebook, and produce useful results. As a result, a lot of the exercises will
-require parsing user input given on the command line as well as reading and
-writing files. These are fundamental notions for scripting that are too often
-not covered in introductory material.
+introductions to programming in Python avoid: writing useful scripts that **run
+on your own computer**, as opposed to an embedded browser interpreter or an
+iPython notebook.
+
+As a result, a lot of the exercises will require parsing user input given on
+the command line as well as reading and writing files. These are fundamental
+notions for scripting that are too often not covered in introductory material.
+
+The exercises will be numbered and go from easy to more advanced. Problems will
+be added through time and solutions should be added a week or two after each
+problem.
 
 ## How to use this repository
 
 For each problem:
 
-- Read the problem description
-- Use the solution template if available
-- Write a Python3 script that solves the problem
+- Read the problem description in its `.py` file
+- Build your solution by filling the template
 - Check the solution(s) for more learning opportunities
 - Solutions should work with Python 3.6+
 - Solutions should work under Windows, Mac, and Linux
-- You can re-use ideas from previous solutions
-- You are also encouraged to try new ideas
+- You can and should re-use ideas from previous solutions
+- You are encouraged to experiment with new ideas
 
 ## What you will learn
 
