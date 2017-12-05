@@ -23,19 +23,19 @@
 
 ### Week 3 - Nov 28
 #### PATH and Playing with files
-- 05 The PATH in Bash
+- 05 The PATH in Bash (done)
   - Make your script visible from everywhere
   - Launch it without a path with `<script.py>`
-- 07 Reading a file
-- 08 Writing a file
+- 06 Reading a file (done)
+- 07 Writing a file (done)
 
 ### Week 4 - Dec 5
 #### Reading from and writing to compressed files
-- 09 Reading and writing from `gzip` compressed files
+- 08 Reading and writing from `gzip` compressed files
 
 ### Week 5 - Dec 12
 #### Data parsing and reporting
-- Parse data from a file and report infos
+- 09 Parse data from a file and report infos
 
 ### Week 6 - Dec 19
 #### Data parsing and reporting
@@ -46,6 +46,10 @@
 - Default dictionaries
 - Trees with dictionaries
 - Basic classes
+
+## Simple recipes
+- Lookup dictionary
+- Parsing lines with `strip` and `split`
 
 ## Useful modules
 - Argparse
