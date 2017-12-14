@@ -54,7 +54,7 @@ import gzip
 import sys
 
 # Define custom version of `open` function
-def myopen(infile, mode="r"):
+def myopen(infile, mode="rt"):
     """Replacement for `open` function to accept gzip files
 
     Use gzip compression algorithm on files ending with `.gz`
