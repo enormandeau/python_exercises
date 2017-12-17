@@ -54,7 +54,7 @@ import gzip
 import sys
 
 # Define custom version of `open` function
-def myopen(infile, mode="rt"):
+def myopen(file_handle, mode="rt"):
     """Replacement for `open` function to accept gzip files
 
     Use gzip compression algorithm on files ending with `.gz`
@@ -65,12 +65,12 @@ def myopen(infile, mode="rt"):
     """
 
     # If filename ends with .gz, open in gzip mode
-    if infile.endswith(".gz"):
-        return gzip.open(infile, mode=mode)
+    if file_handle.endswith(".gz"):
+        return gzip.open(file_handle, mode=mode)
 
     # Else open normally
     else:
-        return open(infile, mode=mode)
+        return open(file_handle, mode=mode)
 
 # Parse user input
 try:
@@ -82,9 +82,9 @@ except:
 
 # Note that the "t" in "wt" and "rt" is needed. If it is omitted,
 # `gzip.open` will use binary encoding instead (ie: "wb" and "rb")
-with myopen(output_file, "wt") as outfile:
-    with myopen(input_file, "rt") as infile:
-        for line in infile:
+with myopen(output_file, "wt") as output_file_handle:
+    with myopen(input_file, "rt") as input_file_handle:
+        for line in input_file_handle:
             l = line.strip().split(" ")
 
             # Put first word in capital letters
@@ -100,4 +100,4 @@ with myopen(output_file, "wt") as outfile:
             print(formatted_line, end="")
 
             # Write new line to file
-            outfile.write(formatted_line)
+            output_file_handle.write(formatted_line)

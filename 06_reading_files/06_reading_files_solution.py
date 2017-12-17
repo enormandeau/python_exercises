@@ -46,8 +46,8 @@ except:
     sys.exit(1)
 
 line_number = 0
-with open(input_file) as infile:
-    for line in infile:
+with open(input_file) as input_file_handle:
+    for line in input_file_handle:
         line_number += 1
         new_line = f"{line_number} {line.strip()}"
         print(new_line)

@@ -49,8 +49,8 @@ except:
     sys.exit(1)
 
 line_number = 0
-with open(output_file, "w") as outfile:
-    with open(input_file) as infile:
-        for line in infile:
+with open(output_file, "w") as output_file_handle:
+    with open(input_file) as input_file_handle:
+        for line in input_file_handle:
             line_number += 1
-            outfile.write(f"{line_number} {line.title()}")
+            output_file_handle.write(f"{line_number} {line.title()}")

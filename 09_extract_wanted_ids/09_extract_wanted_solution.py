@@ -112,19 +112,19 @@ except:
 # Read wanted file and store wanted sequence names
 wanted_sequences = set()
 
-with open(wanted_file) as wfile:
-    for line in wfile:
+with open(wanted_file) as wanted_file_handle:
+    for line in wanted_file_handle:
         wanted_sequences.add(line.strip())
 
 # Open output file
-with open(output_file, "w") as outfile:
+with open(output_file, "w") as output_file_handle:
 
     # Write csv file header
-    outfile.write("Name,Length,Sequence,RevComp\n")
+    output_file_handle.write("Name,Length,Sequence,RevComp\n")
 
     # Read input file and find lines with wanted sequences
-    with open(input_file) as infile:
-        for line in infile:
+    with open(input_file) as input_file_handle:
+        for line in input_file_handle:
 
             # Parse lines and crash on badly formed
             try:
