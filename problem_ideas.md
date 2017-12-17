@@ -32,20 +32,21 @@
 ## Future
 
 ### Data parsing and reporting
-- Parse data from two files, merge some infos, and report
+* Parse data from two files, merge some infos, and report
 
 ### Data structures
-- Default dictionaries
+* Default dictionaries
 - Trees with dictionaries
 - Basic classes
+- Counters (dict, defaultdict, collections.Counter)
 
-### Simple recipes
-- Lookup dictionary
-- Parsing lines with `strip` and `split`
+### Algorithms
+* Longuest palindrome
+- Encription and decription (ceasar, substitution...)
 
 ### Useful modules
 - Argparse
-- Paths with `os` module
+* Paths with `os` module
 - Regular expression with `re` module
 - Module `collections`
 - Module `itertools`
