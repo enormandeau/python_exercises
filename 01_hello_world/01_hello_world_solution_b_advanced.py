@@ -56,7 +56,7 @@ CONCLUSION:
 
 # Print "Hello World!"
 
-# Using nice string formatting from Python 3.6+
+# Using fstring formatting from Python 3.6+
 greetings = "Hello"
 greeted = "World"
 print(f"{greetings} {greeted}!")
