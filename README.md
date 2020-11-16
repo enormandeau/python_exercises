@@ -3,9 +3,11 @@
 A set of Python3 exercises to develop solid scripting foundations
 
 Before going through these exercices, you should be familiar with sections 2 to
-8 of the [official Python tutorial](https://docs.python.org/3/tutorial/). Sections
-9, 10, and 11 are more advanced material that is worth looking at once you are
-comfortable with the previous sections.
+8 of the [official Python tutorial](https://docs.python.org/3/tutorial/). Some
+sections have `See also` links. Please consult these also.
+
+Sections 9, 10, and 11 are more advanced material that is worth looking at once
+you are comfortable with the previous sections.
 
 ## Objective
 
