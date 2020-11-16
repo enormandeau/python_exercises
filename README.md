@@ -38,7 +38,7 @@ For each problem:
 
 The exercises will provide practice for:
 
-- Using Python scripts that start with `#!/usr/bin/env python3`
+- Using Python scripts that start with `#!/usr/bin/env python3` (Linux and MacOS only)
 - Writing useful documentation strings (aka: docstrings) and using them (`__doc__`)
 - Parsing user input (with `sys.argv` and the `argparse` module)
 - Making sure input values are valid
