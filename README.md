@@ -11,18 +11,17 @@ that is worth looking at once you are comfortable with the previous sections.
 
 ## Objective
 
-The goal of this project is to help you gain experience in what many
-introductions to programming in Python avoid: writing useful scripts that **run
-on your own computer**, as opposed to an embedded browser interpreter or an
-iPython notebook.
+The goal of these exercices is to help you gain experience in what many
+introductions to programming in Python avoid: writing useful scripts that
+actually **run on your own computer**, as opposed to an embedded browser
+interpreter or an iPython notebook.
 
 As a result, a lot of the exercises will require parsing user input given on
 the command line as well as reading and writing files. These are fundamental
 notions for scripting that are too often ommited from introductory material.
 
-The exercises will be numbered and go from easy to more advanced. Problems will
-be added through time and solutions should be added a week or two after each
-problem.
+The exercises are numbered and go from easy to more advanced. Problems and
+solutions may be added through time.
 
 ## How to use this repository
 
