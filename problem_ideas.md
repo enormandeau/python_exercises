@@ -31,6 +31,9 @@
 
 ## Future
 
+### Folders
+* Read multiple files from a folder
+
 ### Data parsing and reporting
 * Parse data from two files, merge some infos, and report
 
