@@ -11,20 +11,23 @@ Where:
         1) a sequence name
         2) the DNA sequence itself
 
-    wanted_file is the name a text file with one sequence name per line
+    wanted_file is the name of a text file with one sequence name per line
 
     output_file is a csv file with information about the wanted sequences in
     four comma separated columns:
         1) the wanted sequences' names
-        2) their length
+        2) its length
         3) the sequence itself
         4) the reverse complement of the sequence
+
+Note:
+    Use the input files in the 09_extract_wanted folder.
 """
 
 # Exercise
 """
 GOAL:
-    Read files, parse lines, store data, and produce reports and outputs.
+    Read files, parse lines, store data, produce reports and outputs.
 
 NOTE:
     This exercise builds on all the previous notions (except using compressed
@@ -52,7 +55,7 @@ TODO:
     header line with the name of the columns):
 
         a) the wanted sequences' names
-        b) their length
+        b) its length
         c) the sequence itself
         d) the reverse complement of the sequence
 
@@ -96,6 +99,9 @@ def reverse(sequence):
 
 def reverse_complement(sequence):
     """Produce a reverse complement of the input sequence
+
+    Nothing to implement here. This function uses the `reverse` and
+    `complement` functions. You must implement these.
     """
     return reverse(complement(sequence))
 
