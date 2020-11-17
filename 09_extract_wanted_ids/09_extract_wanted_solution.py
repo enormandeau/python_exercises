@@ -118,9 +118,12 @@ except:
 # Read wanted file and store wanted sequence names
 wanted_sequences = set()
 
-with open(wanted_file) as wanted_file_handle:
-    for line in wanted_file_handle:
+with open(wanted_file) as infile:
+    for line in infile:
         wanted_sequences.add(line.strip())
+
+# Or in one line (no need to initialize wanted_sequences):
+# wanted_sequences = set([line.strip() for line in open(wanted_file).readlines()])
 
 # Open output file
 with open(output_file, "w") as outfile:
@@ -129,8 +132,10 @@ with open(output_file, "w") as outfile:
     outfile.write("Name,Length,Sequence,RevComp\n")
 
     # Read input file and find lines with wanted sequences
-    with open(input_file) as input_file_handle:
-        for line in input_file_handle:
+    # Note that we can re-use `infile` because the other loop where it
+    # appeared is finished
+    with open(input_file) as infile:
+        for line in infile:
 
             # Parse lines and crash on badly formed
             try:
