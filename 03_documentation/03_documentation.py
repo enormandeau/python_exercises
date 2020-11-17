@@ -14,11 +14,11 @@ Where:
 # Exercise
 """
 GOAL:
-    Learn about the docstring and how to print usage
+    Learn about the docstring and how to print help about a script's usage
 
 NOTE:
-    Once again, this basic method works well in a lot of cases. A more advanced
-    approach using the argparse module will be covered later.
+    Once again, this simple method works well in a lot of cases. A more
+    advanced approach using the argparse module will be covered later.
     
     Whenever you see <script.py>, use the actual name of the script instead.
     
@@ -52,7 +52,8 @@ LEARN:
 
 CONCLUSION:
     You now know about docstrings and how to use them to print help when the
-    script is not used properly.
+    script is not used properly. Docstrings are also used to document functions,
+    as we will see later.
 
 WARNING:
     In the next exercice, we will learn how to make sure the provided parameters
