@@ -9,6 +9,9 @@ Usage:
 Where:
     input_file is the name of an input text file
     output_file is the name of an output text file
+
+Note:
+    User the input file in the 07_writing_files folder
 """
 
 # Exercise
