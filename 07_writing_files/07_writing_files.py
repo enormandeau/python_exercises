@@ -26,10 +26,10 @@ NOTE:
 TODO:
     1) Complete the code below to modify the lines read by adding a line number
     (from 1 to the number of lines) and by making every word start with a
-    capital letter (user the `.title()` method on the lines).
+    capital letter (use the `.title()` method on the lines).
 
     2) Fool around with the code to be sure you understand it.
-D
+
 LEARN:
     Use this pattern whenever you need to read from and write to files.
 
