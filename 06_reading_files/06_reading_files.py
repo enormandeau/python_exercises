@@ -17,7 +17,7 @@ GOAL:
 
 NOTE:
     Scripting is often about reading files, parsing and modifying the input,
-    and writing the result to files. In this exercice, we learn a common
+    and writing the result to other files. In this exercice, we learn a common
     pattern to read from files.
     
     Whenever you see <script.py>, use the actual name of the script instead.

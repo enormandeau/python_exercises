@@ -1,3 +1,5 @@
+# Haiku about computers
+
 The Web site you seek
 Cannot be located, but
 Countless more exist.
@@ -9,10 +11,6 @@ Order shall return.
 Windows NT crashed.
 I am the Blue Screen of Death.
 No one hears your screams.
-
-Yesterday it worked.
-Today it is not working.
-Windows is like that.
 
 A crash reduces
 Your expensive computer
