@@ -18,7 +18,7 @@ GOAL:
     Learn how to take user inputs from the command line
 
 NOTE:
-    This basic method works well in a lot of cases. A more advanced approach
+    This simple method works well in a lot of cases. A more advanced approach
     with named parameters will be covered in a future exercise.
     
     Whenever you see <script.py>, use the actual name of the script instead.

@@ -18,7 +18,7 @@ GOAL:
     Learn how to take user inputs from the command line
 
 NOTE:
-    This basic method works well in a lot of cases. A more advanced approach
+    This simple method works well in a lot of cases. A more advanced approach
     with named parameters will be covered in a future exercise.
     
     Whenever you see <script.py>, use the actual name of the script instead.
@@ -35,7 +35,9 @@ TODO:
       `./<script.py> John 32 1.75`
 
     3) Launch without values
+
     4) Launch with a wrong number of values (too few and too many)
+
     5) Launch with values of the wrong type (eg: string instead of number)
 
 LEARN:
