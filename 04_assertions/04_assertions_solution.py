@@ -4,7 +4,7 @@
 """Make sure entered parameters are valid
 
 Usage:
-    ./<script.py> name password
+    ./<script.py> name 'password'
 
 Where:
     name: Name used for login. Must be 6 to 20 letter characters (lower or
@@ -17,6 +17,10 @@ Where:
         - upper case letter
         - punctuation ascii character
         - no special character like spaces, °, », µ, greek letters...
+
+    NOTE: Entered password should be between single quotes (eg: 'PassW0rd!!!')
+    to avoid problems with your terminal trying to interpret some of the
+    special characters.
 """
 
 # Exercise
