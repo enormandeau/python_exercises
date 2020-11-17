@@ -13,6 +13,8 @@ Where:
 Note:
     The input and output text files names must end with the `.gz` extension in
     order to be treated properly.
+
+    Use the input file in the 08_compressed_files folder.
 """
 
 # Exercise
@@ -30,7 +32,7 @@ TODO:
     1) Complete the code below to modify the lines read from input file by
     making the first word all CAPITAL LETTERS (use the `.upper()` method)
     and add spaces after the first word to make the second word start at
-    the 16th character of the string.
+    the 16th character of the line. The rest of the line doesn't change.
 
     2) Print the resulting lines on screen.
 
@@ -54,7 +56,7 @@ import gzip
 import sys
 
 # Define custom version of `open` function
-def myopen(infile, mode="r"):
+def myopen(file_handle, mode="rt"):
     """Replacement for `open` function to accept gzip files
 
     Use gzip compression algorithm on files ending with `.gz`
@@ -65,12 +67,12 @@ def myopen(infile, mode="r"):
     """
 
     # If filename ends with .gz, open in gzip mode
-    if infile.endswith(".gz"):
-        return gzip.open(infile, mode=mode)
+    if file_handle.endswith(".gz"):
+        return gzip.open(file_handle, mode=mode)
 
     # Else open normally
     else:
-        return open(infile, mode=mode)
+        return open(file_handle, mode=mode)
 
 # Parse user input
 # TODO your code here

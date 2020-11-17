@@ -13,6 +13,8 @@ Where:
 Note:
     The input and output text files names must end with the `.gz` extension in
     order to be treated properly.
+
+    Use the input file in the 08_compressed_files folder.
 """
 
 # Exercise
@@ -30,7 +32,7 @@ TODO:
     1) Complete the code below to modify the lines read from input file by
     making the first word all CAPITAL LETTERS (use the `.upper()` method)
     and add spaces after the first word to make the second word start at
-    the 16th character of the string.
+    the 16th character of the line. The rest of the line doesn't change.
 
     2) Print the resulting lines on screen.
 
