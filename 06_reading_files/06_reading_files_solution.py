@@ -8,6 +8,9 @@ Usage:
 
 Where:
     input_file is the name of an input text file
+
+Note:
+    Use the input file in the 06_reading_lines folder
 """
 
 # Exercise
