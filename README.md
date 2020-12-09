@@ -51,11 +51,16 @@ The exercises will provide practice for:
 
 ### Maybe in the future
 
-- Using more advanced functionalities (`defaultdict`...)
-- Keeping data well organized with simple classes
-- Parsing user input (with `sys.argv` and the `argparse` module)
+- Constructing trees with dictionaries
+- Parsing user input with the `argparse` module
+- Using more advanced functionalities (`defaultdict`, Counter, regular expressions...)
 - Using paths properly in all OSes (Windows, Mac, Linux...) with the `os` module
 - Simple search and replace and with regular expressions using the `re` module
+- Keeping data well organized with simple classes
+- Reading multiple files from a folder
+- Classical text encription and decription (ceasar, substitution, vigenère, playfair...)
+- Finding the longuest palindrome
+- Mimic input text
 
 ## License
 
