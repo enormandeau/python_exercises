@@ -13,12 +13,13 @@ that is worth looking at once you are comfortable with the previous sections.
 
 The goal of these exercices is to help you gain experience in what many
 introductions to programming in Python avoid: writing useful scripts that
-actually **run on your own computer**, as opposed to an embedded browser
-interpreter or an iPython notebook.
+actually **run on your own computer**, as opposed to the interactive terminal,
+an embedded browser interpreter or an iPython notebook.
 
-As a result, a lot of the exercises will require parsing user input given on
-the command line as well as reading and writing files. These are fundamental
-notions for scripting that are too often ommited from introductory material.
+As a result, a lot of the exercises will require parsing user input (for
+example parameters) given on the command line, as well as reading and writing
+files. These are fundamental notions for scripting that are too often ommited
+from introductory material.
 
 The exercises are numbered and go from easy to more advanced. Problems and
 solutions may be added through time.
@@ -27,7 +28,8 @@ solutions may be added through time.
 
 For each problem:
 
-- Read the problem description in its `.py` file
+- Read the problem description in its `<problem>_template.py` file
+- Any needed input file are found in the problem's folder
 - Build your solution by filling the template
 - Check the solution(s) for more learning opportunities
 - Solutions should work with Python 3.6+ under Windows, Mac, and Linux
@@ -40,15 +42,18 @@ The exercises will provide practice for:
 
 - Using Python scripts that start with `#!/usr/bin/env python3` (Linux and MacOS only)
 - Writing useful documentation strings (aka: docstrings) and using them (`__doc__`)
-- Parsing user input (with `sys.argv` and the `argparse` module)
 - Making sure input values are valid
 - Using the basic data types (numbers, strings, lists, tuples...)
 - Reading and writing files
 - Reading from and writing to compressed files with the `gzip` module
 - Simplifying programs by using appropriate data structures
 - Creating tree-like structures with dictionaries
+
+### Maybe in the future
+
 - Using more advanced functionalities (`defaultdict`...)
 - Keeping data well organized with simple classes
+- Parsing user input (with `sys.argv` and the `argparse` module)
 - Using paths properly in all OSes (Windows, Mac, Linux...) with the `os` module
 - Simple search and replace and with regular expressions using the `re` module
 
