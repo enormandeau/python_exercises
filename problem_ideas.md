@@ -46,6 +46,7 @@
 ### Algorithms
 * Longuest palindrome
 - Encription and decription (ceasar, substitution...)
+- Mimic input text
 
 ### Useful modules
 - Argparse
